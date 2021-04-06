@@ -38,4 +38,4 @@ Após executar a aplicação, abra algum programa de suporte a requisições com
 | Rota                                  | Tipo     | Tipo do Corpo | Exemplo do corpo                                | Tipo de Resposta | Descrição                                                                     |
 | ------------------------------------- | -------- | ------------- | ----------------------------------------------- | ---------------- | ----------------------------------------------------------------------------- |
 | `http://localhost:3000/status`        | **GET**  | Nenhum        | Nenhum                                          | texto            | Rota que retorna um 'ok' em txt                                               |
-| `http://localhost:3000/scrap_product` | **POST** | JSON          | `{ "url": "url do produto no site da MagaLu" }` | JSON             | Rota que retorna um arquivo no formato JSON contento as infomações do produto |
+| `http://localhost:3000/scrap_product` | **POST** | JSON          | `{ "url": "url do produto no site da MagaLu" }` | JSON             | Rota que retorna um arquivo no formato JSON contendo as infomações do produto |
