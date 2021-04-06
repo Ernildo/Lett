@@ -6,7 +6,7 @@ Sistema de captura de dados do e-commerce **Magazine Luiza**.
 
 ## SOBRE <br>
 
-O sistema foi construído com base na linguagem JavaScript em cima da runtime NodeJs. Não foi utilizado nenhuma biblioteca adicional para tratar as informações vindas do site da Mazine Luiza.
+O sistema foi construído com base na linguagem JavaScript em cima da runtime NodeJs. Não foi utilizado nenhuma biblioteca adicional para tratar as informações vindas do site da Magazine Luiza.
 
 <br>
 
