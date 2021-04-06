@@ -1,6 +1,6 @@
 # Lett
 
-Sistema de catura de dados do e-commerce **Magazine Luiza**.
+Sistema de captura de dados do e-commerce **Magazine Luiza**.
 
 <br>
 
