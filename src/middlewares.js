@@ -1,5 +1,5 @@
-const ERROR = 'URL não é válida'
 const SITE_MAGALU = 'https://www.magazineluiza.com.br/'
+const ERROR = 'URL não é válida'
 
 function urlIsProductMagalu(req, res, next) {
    const { url } = req.body
