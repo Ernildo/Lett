@@ -30,7 +30,7 @@ O sistema foi construído com base na linguagem JavaScript em cima da runtime No
 
 ## TESTE
 
-Apos executar a aplicação, abra algum programa de suporte a requisições como o **Postaman** ou **insomnia** para poder consumir a API.
+Apos executar a aplicação, abra algum programa de suporte a requisições como o **Postman** ou **insomnia** para poder consumir a API.
 <br>
 
 ### Documentação da API
