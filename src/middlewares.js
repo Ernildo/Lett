@@ -1,13 +1,13 @@
-const SITE_MAGALU = 'https://www.magazineluiza.com.br/'
-const ERROR = 'URL não é válida'
+const SITE_MAGALU = 'https://www.magazineluiza.com.br/';
+const ERROR = 'URL não é válida';
 
-function urlIsProductMagalu(req, res, next) {
-   const { url } = req.body
+const urlIsProductMagalu = (req, res, next) => {
+   const { url } = req.body;
 
    if (url.length > 33 && url.includes(SITE_MAGALU))
-      next()
+      next();
    else 
-      res.status(400).send(ERROR)
-}
+      res.status(400).send(ERROR);
+};
 
-module.exports = [ urlIsProductMagalu ]
+module.exports = [ urlIsProductMagalu ];
