@@ -7,8 +7,7 @@ String.prototype.between = function(arg1, arg2) {
       str = this.substring(startIndex)
       const endIndex = str.indexOf(arg2) + arg2.length;
 
-      if (endIndex >= 0)
-         str = str.substring(0, endIndex);
+      if (endIndex >= 0) str = str.substring(0, endIndex);
    }
 
    return str;
