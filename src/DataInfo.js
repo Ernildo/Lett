@@ -62,8 +62,7 @@ function DataInfo(markup = '') {
       const { variationPath, baseUrl } = dta;
       let stringUrl = null; 
       
-      if (variationPath && baseUrl)
-         stringUrl = `${baseUrl}/${variationPath}`;
+      if (variationPath && baseUrl) stringUrl = `${baseUrl}/${variationPath}`;
       
       return stringUrl;
    };
