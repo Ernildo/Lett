@@ -67,15 +67,21 @@ function DataInfo(markup = '') {
    };
 
    return {
-      get availability() { return getAvailability(); },
-      
-      get price() { return getPrice(); },
-
-      get image() { return getImage(); },
-      
-      get name() { return getName(); },
-      
-      get url() { return getUrl(); }
+      get availability() { 
+         return getAvailability(); 
+      },
+      get price() { 
+         return getPrice(); 
+      },
+      get image() { 
+         return getImage(); 
+      },
+      get name() { 
+         return getName(); 
+      },
+      get url() { 
+         return getUrl(); 
+      }
    };
 }
 
