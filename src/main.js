@@ -1,6 +1,6 @@
 const exprees = require('express');
 
-const { scrap, status } = require('./controllers')
+const { scrap, status } = require('./controllers');
 const middlewares = require('./middlewares');
 
 const app = exprees();
